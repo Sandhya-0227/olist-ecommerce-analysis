@@ -44,27 +44,27 @@ The project covers the full analytics workflow — data cleaning, exploratory an
 **File:** `scripts/02_eda_visualizations.py`
 
 ### Chart 1 — Top 10 Product Categories by Revenue
-![Category Revenue](charts/chart1_category_revenue.png)
+![Category Revenue](chart1_category_revenue.png)
 
 **Finding:** `health_beauty` leads with R$1.42M in revenue. `watches_gifts` has the highest average order value at R$215 despite being second in total revenue.
 
 ### Chart 2 — Monthly Revenue Trend
-![Monthly Revenue](charts/chart2_monthly_revenue.png)
+![Monthly Revenue](chart2_monthly_revenue.png)
 
 **Finding:** Revenue grew from near zero in late 2016 to consistently R$1M+ per month by 2018. November 2017 spike (R$1.16M) aligns with Black Friday.
 
 ### Chart 3 — Top 10 Customer States by Order Volume
-![State Orders](charts/chart3_state_orders.png)
+![State Orders](chart3_state_orders.png)
 
 **Finding:** São Paulo (SP) dominates with 40,494 orders — 3x more than Rio de Janeiro (RJ) at 12,350.
 
 ### Chart 4 — Delivery Timing vs Review Score
-![Delay vs Review](charts/chart4_delay_vs_review.png)
+![Delay vs Review](chart4_delay_vs_review.png)
 
 **Finding:** Early deliveries average 4.21 review score. Late deliveries drop to 2.26 — a 1.95 point gap. Delivery timing is the single biggest driver of customer satisfaction.
 
 ### Chart 5 — Order Value Distribution
-![Order Distribution](charts/chart5_order_value_distribution.png)
+![Order Distribution](chart5_order_value_distribution.png)
 
 **Finding:** Right-skewed distribution. Median order value is R$91, mean is R$126. Most orders cluster between R$25-R$150.
 
@@ -93,7 +93,7 @@ The project covers the full analytics workflow — data cleaning, exploratory an
 
 *(Excel file not included due to size — screenshots below)*
 
-![Excel Summary](charts/excel_summary_dashboard.png)
+![Excel Summary](excel_summary_dashboard.png)
 
 ---
 
@@ -102,9 +102,9 @@ The project covers the full analytics workflow — data cleaning, exploratory an
 
 *(Power BI screenshots below)*
 
-![Sales Overview](charts/powerbi_page1.png)
-![Customer Analysis](charts/powerbi_page2.png)
-![Delivery Performance](charts/powerbi_page3.png)
+![Sales Overview](powerbi_page1.png)
+![Customer Analysis](powerbi_page2.png)
+![Delivery Performance](powerbi_page3.png)
 
 ---
 
