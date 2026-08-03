@@ -1,0 +1,5 @@
+# Ignore large data files
+data/master_table.csv
+data/*.csv
+*.db
+*.xlsx
